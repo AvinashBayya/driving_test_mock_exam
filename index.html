@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Driving Test Mock Exam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <h1>Indian Driving Test Mock Exam</h1>
+            <form id="exam-form">
+                <div id="questions-container"></div>
+                <button type="button" onclick="submitExam()">Submit Exam</button>
+            </form>
+            <div id="result-container" style="display:none;">
+                <h2>Your Score: <span id="score"></span>/20</h2>
+                <h3 id="result-message"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
